@@ -14,22 +14,29 @@
                             <span class="m-menu__link-text">
                                 Dashboard
                             </span>
-                            <span class="m-menu__link-badge">
-                                <span class="m-badge m-badge--danger">
-                                    2
-                                </span>
-                            </span>
                         </span>
                     </span>
                 </a>
             </li>
             <li class="m-menu__item " aria-haspopup="true" >
                 <a  href="{{route('kategori.index')}}" class="m-menu__link ">
-                    <i class="m-menu__link-icon flaticon-line-graph"></i>
+                    <i class="m-menu__link-icon flaticon-interface-10"></i>
                     <span class="m-menu__link-title">
                         <span class="m-menu__link-wrap">
                             <span class="m-menu__link-text">
                                 Manajemen Kategori
+                            </span>
+                        </span>
+                    </span>
+                </a>
+            </li>
+            <li class="m-menu__item " aria-haspopup="true" >
+                <a  href="{{route('produk.index')}}" class="m-menu__link ">
+                    <i class="m-menu__link-icon flaticon-gift"></i>
+                    <span class="m-menu__link-title">
+                        <span class="m-menu__link-wrap">
+                            <span class="m-menu__link-text">
+                                Manajemen Produk
                             </span>
                         </span>
                     </span>
